@@ -6,7 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        background-image: radial-gradient(rgb(87, 235, 42), pink, white);
+        height: fit-content;
+       
+        
+    }
+    h1{
+        color: rgb(235, 18, 224);
+        border: 2px solid black;
+        width: fit-content;
+        margin-left: 470px;
+        background-color: rgb(62, 235, 235);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .flex-container{
+        background-color: aqua;
+        width: 1300px;
+        height: 250px;
+        flex-direction: row;
+        display: flex;
+        padding-top: 40px;
+    }
+    .flex-container >div{
+        background-color: blue;
+        height: 150px;
+        width: 200px;
+        margin: 30px;
+    }
+    #i1{
+        background-image: url(../../../i1.jpg);
+        -webkit-clip-path: polygon(51% 64%, 68% 0, 100% 0, 68% 100%, 68% 100%, 32% 100%, 32% 100%, 0 0, 31% 0);
+clip-path: polygon(51% 64%, 68% 0, 100% 0, 68% 100%, 68% 100%, 32% 100%, 32% 100%, 0 0, 31% 0);
+
+    }
+    #i2{
+        background-image: url(../../../i2.jpg);
+        -webkit-clip-path: polygon(32% 0, 61% 0, 60% 100%, 31% 100%);
+clip-path: polygon(32% 0, 61% 0, 60% 100%, 31% 100%);
+
+
+    }
+    #i3{
+        background-image: url(../../../i3.jpg);
+        -webkit-clip-path: polygon(76% 59%, 0 60%, 0 0, 100% 0, 100% 22%, 25% 22%, 24% 41%, 100% 42%, 100% 100%, 0 100%, 0 78%, 76% 79%);
+clip-path: polygon(76% 59%, 0 60%, 0 0, 100% 0, 100% 22%, 25% 22%, 24% 41%, 100% 42%, 100% 100%, 0 100%, 0 78%, 76% 79%);
+    }
+    #i4{
+        background-image: url(../../../i4.jpg);
+        -webkit-clip-path: polygon(0 0, 28% 0, 28% 37%, 74% 37%, 73% 0, 100% 0, 100% 100%, 75% 100%, 74% 60%, 27% 60%, 27% 100%, 0 99%);
+clip-path: polygon(0 0, 28% 0, 28% 37%, 74% 37%, 73% 0, 100% 0, 100% 100%, 75% 100%, 74% 60%, 27% 60%, 27% 100%, 0 99%);
+    }
+    #i5{
+        background-image: url(../../../i5.jpg);
+        -webkit-clip-path: polygon(21% 0, 1% 0, 0 51%, 0 100%, 25% 100%, 28% 53%, 73% 100%, 100% 99%, 100% 51%, 100% 0, 75% 0, 72% 60%);
+clip-path: polygon(21% 0, 1% 0, 0 51%, 0 100%, 25% 100%, 28% 53%, 73% 100%, 100% 99%, 100% 51%, 100% 0, 75% 0, 72% 60%);
+    }
+    #i6{
+        background-image: url(../../../i6.jpg);
+        -webkit-clip-path: polygon(0 0, 28% 0, 29% 68%, 72% 69%, 74% 0, 100% 0, 100% 77%, 78% 100%, 83% 100%, 29% 100%, 23% 100%, 0 80%);
+clip-path: polygon(0 0, 28% 0, 29% 68%, 72% 69%, 74% 0, 100% 0, 100% 77%, 78% 100%, 83% 100%, 29% 100%, 23% 100%, 0 80%);
+    }
+
+</style>
 <body>
+    <h1>MY LETTER IMAGES</h1>
+
+    <div class="flex-container">
+        <div id="i1"></div>
+        <div id="i2"></div>
+        <div id="i3"></div>
+        <div id="i4"></div>
+        <div id="i5"></div>
+        <div id="i6"></div>
+
+    </div>
     
 </body>
 </html>

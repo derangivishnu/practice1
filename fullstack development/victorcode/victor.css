@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .logo{
+   
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    font-size: x-large;
+    background-color: azure;
+    padding: 15px;
+    
+}
+
+.logo button{
+    height: 40px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+}
+ #log{
+    background-color:  black;
+    color: white;
+    box-shadow: 3px 3px aqua;
+}
+
+.logo button:hover{
+    background-color: black;
+    box-shadow: 4px 4px aqua;
+    color: white;
+    cursor: pointer;
+}
+#log:hover{
+    background-color:  aqua;
+    color: black;
+    box-shadow: 3px 3px black;
+
+}
+ul{
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+li{
+    display: inline;
+    float: left;
+    text-decoration: none;
+    padding: 14px 40px;
+    border: 3px solid white;
+
+    
+}
+li:last-child{
+    border-right: none;
+}
+li a{
+    display: block;
+    padding: 8px;
+    background-color: pink;
+    text-decoration: none;
+}
+#pink{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    padding: 80px 80px;
+
+}
+#violet{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 80px 80px;
+
+}
+#black{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 80px 80px;
+}
+#green{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 80px 80px;
+}
+#sql{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 80px 80px;
+}
+#php{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 80px 80px;
+}
+.container{
+    text-align: center;
+    
+    flex-direction: row;
+}
+
+
+
+    
+

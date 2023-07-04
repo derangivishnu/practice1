@@ -1,0 +1,23 @@
+<script>
+   // function vishnuicecreamgiver(){
+    //    return "icecream"
+   // }
+   // console.log("personone",vishnuicecreamgiver())
+    //console.log("persontwo",vishnuicecreamgiver())
+
+    function* vishnuicecreamgiver(){
+    yield "icecream1"
+    yield "icecream2"
+    yield "icecream3"
+    }
+    console.log("person1",vishnuicecreamgiver().next())
+    console.log("person2",vishnuicecreamgiver().next())
+    console.log("person3",vishnuicecreamgiver().next())
+    console.log("person4",vishnuicecreamgiver().next())
+
+    let=jayshree=vishnuicecreamgiver()
+    console.log(jayshree.next())
+    console.log(jayshree.next())
+    console.log(jayshree.next())
+    console.log(jayshree.next())
+</script>

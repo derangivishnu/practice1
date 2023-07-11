@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dom</title>
 </head>
 <body>
-    <div id="root"></div>
-    <script src="./p1.js"></script>
+    
+        <h1 id="root"></h1>
+
+    
+    <button>hello</button>
+    <script>
+        let h1=document.getElementById("root")
+        
+        h1.innerHTML="hi bros"
+        h1.appendChild(h1)
+       
+    </script>
 </body>
 </html>

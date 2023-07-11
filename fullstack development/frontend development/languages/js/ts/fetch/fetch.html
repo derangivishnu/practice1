@@ -1,0 +1,7 @@
+<script>
+    async function apicaller(){
+        let data=fetch("https://fakestoreapi.com/products")
+        data=await(await data).json()
+    }
+    apicaller()
+</script>

@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="root"></h1>
+<script>
+let sec=0
+let mins=0
+let hours=0
+let h1=document.getElementById('root')
+setInterval(()=>{
+
+    sec++
+    console.log(sec)
+    h1.innerHTML=`${hours}:${mins}:${sec}`
+    if(sec==5){
+        mins++
+        sec=0
+    }
+    if(mins==5){
+        hours++
+        mins++
+    }
+    if(hours==5){
+        hours++
+    }
+},1000)
+</script>
+</body>
+</html>

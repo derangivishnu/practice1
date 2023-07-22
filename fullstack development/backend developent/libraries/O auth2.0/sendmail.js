@@ -61,10 +61,10 @@ var mailSender = function (name, email, subject, text) { return __awaiter(_this,
                 console.log(err);
             }
             else {
-                console.log('mail sent');
+                console.log('mail sent successfully');
             }
         });
         return [2 /*return*/];
     });
 }); };
-mailSender('Vishnu', 'derangivishnuvardhan@yahoo.com', 'test mail', 'hi vishu how are u');
+mailSender('waseem sir', 'waseemahmed116@gmail.com', 'test mail', 'hi sir how are u');

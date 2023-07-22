@@ -12,8 +12,6 @@ let transporter=nodemailer.createTransport({
       }
 })
 
-
-
 let mailoptions={
     from:'derangivishnuvardhan@gmail.com',
     to:`${email}`,
@@ -24,9 +22,9 @@ transporter.sendMail(mailoptions,(err:any,res:any)=>{
     if(err){
         console.log(err)
     }else{
-        console.log('mail sent')
+        console.log('mail sent successfully')
     }
 })
 }
 
-mailSender('Vishnu','derangivishnuvardhan@yahoo.com','test mail','hi vishu how are u')
+mailSender('waseem sir','waseemahmed116@gmail.com','test mail','hi sir how are u')

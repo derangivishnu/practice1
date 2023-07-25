@@ -1,7 +1,7 @@
 let http=require('http')
 console.log(http)
 
-let fs=require('fs')
+let fs1=require('fs')
 http.createServer((req:any,res:any)=>{
     if(req.url=="/chotu"){
         res.write("will give you chocolate")
